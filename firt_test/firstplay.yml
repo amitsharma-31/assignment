@@ -1,0 +1,7 @@
+---
+- name: First play
+  hosts: 192.168.10.13
+  tasks:
+    - name: it will just print message
+      debug: 
+        msg: "System {{ inventory_hostname }} has uuid {{ ansible_product_uuid }}"
