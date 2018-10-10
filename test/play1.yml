@@ -1,0 +1,5 @@
+---
+- name: Test play1
+  hosts: test
+  tasks:
+    - debug: msg="This is testnote 1"
