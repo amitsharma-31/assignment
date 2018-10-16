@@ -1,5 +1,0 @@
-[oracle-pre]
-name=yum_client
-baseurl=http://10.5.200.155/oracle-pre/
-enabled=1
-gpgcheck=0

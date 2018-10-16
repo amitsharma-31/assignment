@@ -1,8 +1,0 @@
-#- name: Update sudo rules for tickuser
-#  template:
-#     dest: '/etc/sudoers.d/tickuser'
-#     src: hardening/common/tickuser
-#     owner: root
-#     group: root
-#     mode: 0440
-
